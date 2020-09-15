@@ -1,7 +1,7 @@
 {
   "name": "webpack-intro",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chris LoJacono Bio Site",
   "main": "src/javascripts/main.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
