@@ -41,12 +41,32 @@ const projects = [
     githubUrl: 'https://github.com/chrislojacono/Bear-Watcher',
   },
   {
+    title: 'Pants Store Group Project',
+    screenshot: '../images/pants.png',
+    description:
+      'We wanted to incorporate the use of wireframes, github project boards and the process of assigning and completing issue tickets',
+    technologiesUsed: 'Vanilla Javascript ES6, HTML5, CSS3',
+    available: true,
+    url: 'https://extraordinarycorduroy.netlify.app/',
+    githubUrl: 'https://github.com/chrislojacono/pants-group-project-e13-mighty-megalodons-team-4',
+  },
+  {
     title: 'Dino Kennel Milestone Project',
     screenshot: '../images/dinoKennel.png',
     description:
       // eslint-disable-next-line max-len
       'The motivation was for us to showcase all the skills we had learned with Vanilla Javascript up until this point. We had to do the whole project solo and incorporate all the things we had learned.',
-    technologiesUsed: 'Vanilla Javascript ES6, JQuery, HTML5, CSS3 and Modules',
+    technologiesUsed: 'Javascript ES6, JQuery, HTML5, CSS3 and Modules',
+    available: true,
+    url: 'https://dino-kennelcl.netlify.app/',
+    githubUrl: 'https://github.com/chrislojacono/Dino-Kennel-Milestone-1',
+  },
+  {
+    title: 'Chatty Group Project',
+    screenshot: '../images/parksAndRec.png',
+    description:
+      'This was a group project to build a chat room with multiple users, emojis, a giphy API, local storage, and chat bots.',
+    technologiesUsed: 'Javascript ES6, JQuery, HTML5, SASS, And a Webpack with Modules, giphy API',
     available: true,
     url: 'https://dino-kennelcl.netlify.app/',
     githubUrl: 'https://github.com/chrislojacono/Dino-Kennel-Milestone-1',

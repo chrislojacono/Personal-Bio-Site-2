@@ -1,0 +1,29 @@
+
+.technologies{
+    height: 100%;
+    width:30%;
+    border: red 3px solid;
+    background-color: lightgoldenrodyellow;
+    width: 30%;
+    border: 2px black solid;
+    border-radius: 10%;
+    padding: 20px;
+}
+.techIcons{
+    display: flex;
+    flex-flow: row wrap;
+    i{
+       font-size: 4rem;
+       margin: 20px;
+    }
+}
+
+
+.aboutMe{
+    border: 4px gold solid;
+    width: 30%;
+    background-color: lightgoldenrodyellow;
+    border: 2px black solid;
+    border-radius: 10%;
+    padding: 20px;
+}
