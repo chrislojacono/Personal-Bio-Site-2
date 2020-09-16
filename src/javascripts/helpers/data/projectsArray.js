@@ -28,7 +28,7 @@ const projects = [
     title: 'Sorting Hat',
     screenshot: '../images/SortingHat.png',
     description:
-      'A project to test event listeners and Javascript functionality with user input fields.',
+      'A project to test event listeners and Javascript functionality with user input fields. THis was a challenge to understand form control and adding objects to the DOM dynamically.',
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Bootstrap 4, Event Listeners',
     available: true,
