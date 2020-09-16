@@ -1,8 +1,9 @@
 const projects = [
   {
+    id: 1,
     title: 'Adoption Website',
     screenshot: '../images/adoption.jpg',
-    description: 'A small design to test event listeners',
+    description: 'This was our first project to test our knowledge on using Event Listeners with Vanilla Javascript',
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Version Control with Github, Event Listeners',
     available: true,
@@ -10,9 +11,10 @@ const projects = [
     githubUrl: 'https://github.com/chrislojacono/pet-adoption',
   },
   {
+    id: 2,
     title: 'NSS Pie Shop',
     screenshot: '../images/pie.png',
-    description: 'A small design to test bootstrap/event listeners',
+    description: 'This was our first implementation of Bootstrap in a single page application.',
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Bootstrap, Event Listeners',
     available: true,
@@ -20,10 +22,11 @@ const projects = [
     githubUrl: 'https://github.com/chrislojacono/Event-Listeners',
   },
   {
+    id: 3,
     title: 'Sorting Hat',
     screenshot: '../images/SortingHat.png',
     description:
-      'A project to test event listeners and Javascript functionality with user input fields',
+      'A project to test event listeners and Javascript functionality with user input fields.',
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Bootstrap 4, Event Listeners',
     available: true,
@@ -31,6 +34,7 @@ const projects = [
     githubUrl: 'https://github.com/chrislojacono/Sorting-Hat',
   },
   {
+    id: 4,
     title: 'Bear Watcher',
     screenshot: '../images/bearWatcher.png',
     description:
@@ -41,6 +45,7 @@ const projects = [
     githubUrl: 'https://github.com/chrislojacono/Bear-Watcher',
   },
   {
+    id: 5,
     title: 'Pants Store Group Project',
     screenshot: '../images/pants.png',
     description:
@@ -51,6 +56,7 @@ const projects = [
     githubUrl: 'https://github.com/chrislojacono/pants-group-project-e13-mighty-megalodons-team-4',
   },
   {
+    id: 6,
     title: 'Dino Kennel Milestone Project',
     screenshot: '../images/dinoKennel.png',
     description:
@@ -62,6 +68,7 @@ const projects = [
     githubUrl: 'https://github.com/chrislojacono/Dino-Kennel-Milestone-1',
   },
   {
+    id: 7,
     title: 'Chatty Group Project',
     screenshot: '../images/parksAndRec.png',
     description:
@@ -69,7 +76,7 @@ const projects = [
     technologiesUsed: 'Javascript ES6, JQuery, HTML5, SASS, And a Webpack with Modules, giphy API',
     available: true,
     url: 'https://dino-kennelcl.netlify.app/',
-    githubUrl: 'https://github.com/chrislojacono/Dino-Kennel-Milestone-1',
+    githubUrl: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
   },
 ];
 

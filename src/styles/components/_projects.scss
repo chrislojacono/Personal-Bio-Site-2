@@ -1,0 +1,43 @@
+
+.projects{
+    display: flex;
+    flex-flow: wrap row;
+    margin: 20px;
+}
+.projectCard{
+    background-color: #F5F1ED;
+    padding: 10px;
+    margin: 10px;
+   
+}
+@each $id, $img in $background-image {
+.img-container-#{$id}  {
+    height: 220px;
+    padding: 5px;
+    background-image: url($img);
+    background-size: cover;
+    background-position: center;
+
+  }
+}
+.techCard{
+    font-size: 1.2vw;
+    margin: 10px;
+}
+.techSection{
+    float: bottom;
+    margin-top: 20px;
+    border: 1px rgba(65, 63, 63, 0.658) solid;
+    text-align: center;
+    background-color:white;
+}
+.card-body{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    background-image: linear-gradient(to top, rgba(247, 247, 248, 0.253), rgba(247, 231, 242, 0.73));
+}
+.card-title{
+    font-size: 1.5vw;
+    text-align: center;
+}
