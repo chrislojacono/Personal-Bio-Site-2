@@ -9,7 +9,7 @@ const projectDisplay = () => {
           <div class="card-body">
             <h4 class="card-title push">${project.title}</h4>
             <p class="card-text push">${project.description}</p>
-            <a href="${project.url}" class="btn btn-outline-primary push">Deployed Site</a>
+            <a href="${project.url}" class="btn btn-outline-primary push">View Live Demo</a>
             <a href="${project.githubUrl}" class="btn btn-outline-info push">Github</a>
             <div class="techSection">
             <h5 class="techCard">Technology Used</h5>
