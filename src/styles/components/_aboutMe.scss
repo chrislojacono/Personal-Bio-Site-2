@@ -1,6 +1,6 @@
 
 .technologies{
-    height: auto;
+    height: 100%;
     width:30%;
     border: red 3px solid;
     background-color: #F5F1ED;
@@ -8,14 +8,16 @@
     border: 2px black solid;
     border-radius: 10%;
     padding: 20px;
+    overflow: hidden;
     h3{
-        font-size: 2vw;
+        // font-size: 2vw;
         text-decoration: underline;
     }
 }
 .techIcons{
     display: flex;
     flex-flow: row wrap;
+
     i{
        font-size: 5vw;
        margin: 20px;
@@ -27,13 +29,31 @@
 .aboutMe{
     border: 4px gold solid;
     width: 30%;
+    height:100%;
+    overflow: hidden;
     background-color: #F5F1ED;
-    font-size: 1vw;
     border: 2px black solid;
-    // border-radius: 10%;
+    border-radius: 5px;
     padding: 20px;
     h3{
-        font-size: 2vw;
+        // font-size: 2vw;
         text-decoration: underline;
     }
 }
+.aboutChild{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {display: inline-block;}

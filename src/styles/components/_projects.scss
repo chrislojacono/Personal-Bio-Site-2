@@ -8,6 +8,7 @@
     background-color: #F5F1ED;
     padding: 10px;
     margin: 10px;
+    position: relative;
    
 }
 @each $id, $img in $background-image {
@@ -20,16 +21,23 @@
 
   }
 }
-.techCard{
-    font-size: 1.2vw;
-    margin: 10px;
-}
+
 .techSection{
+    // font-size: 1vw;
+    width: 90%;
+    height: auto;
     float: bottom;
     margin-top: 20px;
+    margin-bottom: 10px;
     border: 1px rgba(65, 63, 63, 0.658) solid;
+    border-radius: 5px;
     text-align: center;
     background-color:white;
+}
+.techCard{
+    border: 1px solid gold;
+    font-size: 1.2vw;
+    margin: 10px;
 }
 .card-body{
     width: 100%;
@@ -42,9 +50,10 @@
     text-align: center;
 }
 .portfolio{
-
+    display: inline-block;
 }
 .portfolioHead{
+    display: block;
     margin: 30px auto;
     font-size: 3vw;
     text-align: center;
@@ -52,4 +61,9 @@
     background-color:#F5F1ED ;
     border-radius: 30px;
     border: 2px solid black;
+}
+.date{
+    margin:10px auto;
+    position: absolute;
+    bottom: 0;
 }

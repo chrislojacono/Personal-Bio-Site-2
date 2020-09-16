@@ -9,6 +9,7 @@ const projects = [
     available: true,
     url: 'https://practical-heyrovsky-fba724.netlify.app/',
     githubUrl: 'https://github.com/chrislojacono/pet-adoption',
+    date: 'July 29, 2020',
   },
   {
     id: 2,
@@ -20,18 +21,20 @@ const projects = [
     available: true,
     url: 'https://nsspieshop.netlify.app',
     githubUrl: 'https://github.com/chrislojacono/Event-Listeners',
+    date: 'August 5, 2020',
   },
   {
     id: 3,
     title: 'Sorting Hat',
     screenshot: '../images/SortingHat.png',
     description:
-      'A project to test event listeners and Javascript functionality with user input fields.',
+      'A project to test event listeners and Javascript functionality with user input fields. THis was a challenge to understand form control and adding objects to the DOM dynamically.',
     technologiesUsed:
       'HTML, CSS, Vanilla JavaScript, Bootstrap 4, Event Listeners',
     available: true,
     url: 'https://sortinghatcl.netlify.app/',
     githubUrl: 'https://github.com/chrislojacono/Sorting-Hat',
+    date: 'August 12, 2020',
   },
   {
     id: 4,
@@ -43,6 +46,7 @@ const projects = [
     available: true,
     url: 'https://bear-watcher.netlify.app/',
     githubUrl: 'https://github.com/chrislojacono/Bear-Watcher',
+    date: 'August 19, 2020',
   },
   {
     id: 5,
@@ -54,6 +58,7 @@ const projects = [
     available: true,
     url: 'https://extraordinarycorduroy.netlify.app/',
     githubUrl: 'https://github.com/chrislojacono/pants-group-project-e13-mighty-megalodons-team-4',
+    date: 'August 31, 2020',
   },
   {
     id: 6,
@@ -66,6 +71,7 @@ const projects = [
     available: true,
     url: 'https://dino-kennelcl.netlify.app/',
     githubUrl: 'https://github.com/chrislojacono/Dino-Kennel-Milestone-1',
+    date: 'September 7, 2020',
   },
   {
     id: 7,
@@ -77,6 +83,7 @@ const projects = [
     available: true,
     url: 'https://dino-kennelcl.netlify.app/',
     githubUrl: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
+    date: 'September 14, 2020',
   },
 ];
 

@@ -15,6 +15,7 @@ const projectDisplay = () => {
             <h5 class="techCard">Technology Used</h5>
             <p class="card-text">${project.technologiesUsed}</p>
             </div>
+            <p class="date"><em>${project.date}</em></p>
           </div>
         </div>`);
     }
@@ -22,6 +23,3 @@ const projectDisplay = () => {
 };
 
 export default { projectDisplay };
-
-/* <div class="img-container" style="background-image: url(${project.screenshot})">
-</div> */
