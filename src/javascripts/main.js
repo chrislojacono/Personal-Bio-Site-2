@@ -1,8 +1,8 @@
 import '../styles/main.scss';
+import projects from './components/display';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  projects.projectDisplay();
 };
 
 init();
