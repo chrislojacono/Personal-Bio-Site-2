@@ -11,3 +11,6 @@ This is a website to showcase my portfolio while I search for a job hunt at NSS.
 
 ## Code style
 This is using Javascript ES6, with webpack installed and SASS
+
+## Live Demo
+https://chrislojaconosite.netlify.app/
