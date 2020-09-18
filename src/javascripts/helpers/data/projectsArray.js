@@ -81,7 +81,7 @@ const projects = [
       'This was a group project to build a chat room with multiple users, emojis, a giphy API, local storage, and chat bots.',
     technologiesUsed: 'Javascript ES6, JQuery, HTML5, SASS, And a Webpack with Modules, giphy API',
     available: true,
-    url: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
+    url: 'https://parksandrecchatty.netlify.app/',
     githubUrl: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
     date: 'September 14, 2020',
   },
