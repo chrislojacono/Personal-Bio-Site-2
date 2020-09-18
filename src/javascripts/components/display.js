@@ -22,10 +22,5 @@ const projectDisplay = () => {
     }
   });
 };
-// $('#liveDemo').on('click', () => {
-//   if (project.url === undefined) {
-//     $('.alert').alert();
-//   }
-// });
 
 export default { projectDisplay };
