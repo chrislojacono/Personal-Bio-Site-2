@@ -1,0 +1,13 @@
+{
+  "firebaseConfig": {
+    "apiKey": "AIzaSyDuN0gGr1keYfN_4s9LUoH-fdOxBOGv8qw",
+    "authDomain": "personal-bio-site-5186d.firebaseapp.com",
+    "databaseURL": "https://personal-bio-site-5186d.firebaseio.com",
+    "projectId": "personal-bio-site-5186d",
+    "storageBucket": "personal-bio-site-5186d.appspot.com",
+    "messagingSenderId": "384393881229",
+    "appId": "1:384393881229:web:0a972158b418f68ccc64c4",
+    "measurementId": "G-8253E3WBV2"
+  }
+}
+     
