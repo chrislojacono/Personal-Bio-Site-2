@@ -1,5 +1,5 @@
 {
-  "firebaseConfig": {
+  "firebaseKeys": {
     "apiKey": "AIzaSyDuN0gGr1keYfN_4s9LUoH-fdOxBOGv8qw",
     "authDomain": "personal-bio-site-5186d.firebaseapp.com",
     "databaseURL": "https://personal-bio-site-5186d.firebaseio.com",

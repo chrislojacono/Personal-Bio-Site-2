@@ -1,5 +1,5 @@
 {
-    "Adoption Site":{
+    "Project 1":{
         "id": 1,
         "title": "Adoption Website",
         "screenshot": "../images/adoption.jpg",
@@ -11,7 +11,7 @@
         "githubUrl": "https://github.com/chrislojacono/pet-adoption",
         "date": "July 29, 2020"
       },
-      "Pie Shop":{
+      "Project 2":{
         "id": 2,
         "title": "NSS Pie Shop",
         "screenshot": "../images/pie.png",
@@ -23,7 +23,7 @@
         "githubUrl": "https://github.com/chrislojacono/Event-Listeners",
         "date": "August 5, 2020"
       },
-      "Sorting Hat":{
+      "Project 3":{
         "id": 3,
         "title": "Sorting Hat",
         "screenshot": "../images/SortingHat.png",
@@ -35,7 +35,7 @@
         "githubUrl": "https://github.com/chrislojacono/Sorting-Hat",
         "date": "August 12, 2020"
       },
-      "The Bear Wather":{
+      "Project":{
         "id": 4,
         "title": "Bear Watcher",
         "screenshot": "../images/bearWatcher.png",
@@ -47,7 +47,7 @@
         "githubUrl": "https://github.com/chrislojacono/Bear-Watcher",
         "date": "August 19, 2020"
       },
-      "Pants Project":{
+      "Project 5":{
         "id": 5,
         "title": "Pants Store Group Project",
         "screenshot": "../images/pants.png",
@@ -59,7 +59,7 @@
         "githubUrl": "https://github.com/chrislojacono/",
         "date": "August 31, 2020"
       },
-      "Dino Kennel":{
+      "Project 6":{
         "id": 6,
         "title": "Dino Kennel Milestone Project",
         "screenshot": "../images/dinoKennel.png",
@@ -71,7 +71,7 @@
         "githubUrl": "https://github.com/chrislojacono/Dino-Kennel-Milestone-1",
         "date": "September 7, 2020"
       },
-      "Chatty Project":{
+      "Project 7":{
         "id": 7,
         "title": "Chatty Group Project",
         "screenshot": "../images/parksAndRec.png",
