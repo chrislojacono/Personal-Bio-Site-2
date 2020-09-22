@@ -1,26 +1,20 @@
-import projects from '../helpers/data/projectsArray';
-
-const projectDisplay = () => {
-  projects.getProjects().forEach((project) => {
-    if (project.available === true) {
-      $('#projects')
-        .prepend(`<div class="card projectCard container-fluid" style="width: 18rem;">
-      <div class="img-container-${project.id}">
+const projectDisplay = (projectObject) => {
+  const domString = `<div class="card projectCard container-fluid" style="width: 18rem;">
+      <div class="img-container-${projectObject.id}">
       </div>
           <div class="card-body">
-            <h4 class="card-title push">${project.title}</h4>
-            <p class="card-text push">${project.description}</p>
-            <a href="${project.url}" id="liveDemo" class="btn btn-outline-primary push">View Live Demo</a>
-            <a href="${project.githubUrl}" class="btn btn-outline-info push">Github</a>
+            <h4 class="card-title push">${projectObject.title}</h4>
+            <p class="card-text push">${projectObject.description}</p>
+            <a href="${projectObject.url}" id="liveDemo" class="btn btn-outline-primary push">View Live Demo</a>
+            <a href="${projectObject.githubUrl}" class="btn btn-outline-info push">Github</a>
             <div class="techSection">
             <h5 class="techCard">Technology Used</h5>
-            <p class="card-text">${project.technologiesUsed}</p>
+            <p class="card-text">${projectObject.technologiesUsed}</p>
             </div>
-            <p class="date"><em>${project.date}</em></p>
+            <p class="date"><em>${projectObject.date}</em></p>
           </div>
-        </div>`);
-    }
-  });
+        </div>`;
+  return domString;
 };
 
 export default { projectDisplay };
