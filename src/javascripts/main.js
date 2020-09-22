@@ -1,8 +1,8 @@
 import '../styles/main.scss';
-import projects from './components/display';
+import display from './components/axiosDisplay';
 
 const init = () => {
-  projects.projectDisplay();
+  display.projectsView();
 };
 
 init();
